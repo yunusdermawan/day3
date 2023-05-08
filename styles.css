@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+.container {
+    background: #232931;
+    height: 100vh;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo h1 {
+    color: #4ecca3;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: no-wrap;
+}
+
+.title {
+    color: white;
+    width: 48%;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.image-container img {
+    width: 70%;
+}
+
+.button input {
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    margin-right: 50px;
+}
+
+.button .submit {
+    border: 2px solid #4ecca3;
+    background: none;
+    color: #4ecca3;
+}
